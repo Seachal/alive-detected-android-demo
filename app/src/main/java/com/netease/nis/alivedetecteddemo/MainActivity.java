@@ -383,7 +383,6 @@ public class MainActivity extends Activity {
 
     private void playSounds(int currentActionIndex) {
         switch (mActions[currentActionIndex]) {
-            // 由于版权原因，以下声音资源不能上传，请各开发者自行制作
             case ACTION_TURN_HEAD_TO_LEFT:
                 playSound(getAssetFileDescriptor("turn_head_to_left.wav"));
                 break;
